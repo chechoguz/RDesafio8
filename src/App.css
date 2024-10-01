@@ -1,0 +1,173 @@
+/* Navbar Styles */
+.navbar {
+  padding: 5px 10px;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  font-size: 1rem;
+  color: white;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px; 
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px; 
+  margin-right: 10px;
+  padding: 5px 10px;
+  
+}
+
+.navbar-nav .nav-link:hover {
+  color: #26dbff;
+}
+
+.navbar-text .btn {
+  color: #26dbff;
+  border-color: #26dbff;
+}
+
+.navbar-text .btn:hover {
+  color: white;
+  background-color: #26dbff;
+  border-color: #26dbff;
+}
+
+/* Header Styles */
+.header {
+  position: relative;
+  background-image: url('https://i.ibb.co/GCfZSL0/image.png');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+
+}
+
+.header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header .header-content {
+  position: relative;
+  z-index: 1;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.5rem;
+}
+
+/* CardPizza Styles */
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 5px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 5px;
+}
+
+.card-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.btn-sm {
+  padding: 5px 10px;
+  font-size: 0.875rem;
+}
+
+.ingredients-text {
+  font-size: 0.8rem;
+}
+
+/* Footer Styles */
+footer {
+  
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Formulario de Registro y Login */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  margin-top: 15px;
+  font-weight: bold;
+  color: green;
+}
+
+.register-form-container,
+.login-form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
